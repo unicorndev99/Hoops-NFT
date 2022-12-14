@@ -1,0 +1,285 @@
+@import "~antd/dist/antd.css";
+
+body {
+  margin: 0;
+  font-family: 'montserrat' !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* overflow: hidden; */
+}
+ul li{
+  list-style: none;
+}
+ul{
+  margin: 0px;
+  padding: 0px;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+#components-layout-demo-top-side .logo {
+  width: 120px;
+  height: 31px;
+  background: rgba(255, 255, 255, 0.2);
+  margin: 16px 28px 16px 0;
+  float: left;
+}
+
+.site-layout-background {
+  background: #fff;
+}
+
+.primary {
+  color: #fff;
+  background-color: #337ab7;
+  border-color: #2e6da4;
+}
+/*=============================
+            LOADER
+===============================*/
+.loader {
+  border: 16px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 16px solid blue;
+  border-bottom: 16px solid blue;
+  width: 120px;
+  height: 120px;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+  margin: 10% auto;
+  color: transparent;
+}
+
+/* Safari */
+@-webkit-keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.loginformPage {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  text-indent: -99999em;
+}
+
+.loginform {
+  max-width: 600px;
+  /* margin: auto; */
+  padding: 20px;
+  box-shadow: 0px 10px 30px #0000001c;
+  width: 40%;
+}
+.staticFAQ {
+  max-width: 991px;
+  margin: auto;
+}
+.ant-collapse > .ant-collapse-item > .ant-collapse-header {
+  color: blue;
+}
+.loginform .ant-row {
+  flex-flow: inherit !important;
+}
+.loginform .ant-col.ant-form-item-label {
+  flex: 0 0 25% !important;
+  width: 25% !important;
+  margin-right: 10px !important;
+}
+.loginform .ant-col.ant-form-item-control {
+  width: 100% !important;
+}
+
+.logo-area {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.dashboard-text {
+  color: #ffffff;
+  font-size: 15px;
+  padding-left: 16px;
+}
+
+.ant-table-pagination {
+  text-align: center;
+  float: none !important;
+}
+
+.right-top-corner {
+  float: right;
+}
+.right-top-corner span {
+  color: #ffffff;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.my-label {
+  font-weight: 600;
+}
+.right-section {
+  padding-left: 10px;
+  padding-right: 5px;
+  padding-top: 70px;
+  padding-bottom: 5px;
+  min-height: 80vh;
+}
+.ant-layout-sider {
+  margin-top: 70px;
+}
+.sidebar-icon {
+  font-size: 22px !important;
+}
+
+.ant-layout-header {
+  padding: 0px;
+  position: fixed;
+  z-index: 99999;
+  width: 100%;
+}
+
+.ant-layout-footer {
+  padding: 10px 50px;
+}
+.ant-form-item-label > label.ant-form-item-required::before {
+  color: #188ffe;
+}
+.ant-drawer {
+  z-index: 9999999999;
+}
+
+.filterLabel,
+.paymentLabel,
+.additionalInfoLabel {
+  font-weight: 600;
+}
+.filterValue, .paymentValue, .additionalInfoValue {
+  margin-left: 6px;
+}
+
+/*header css start here*/
+.static-header {
+  padding: 15px 0;
+  box-shadow: 0 0.5rem 1rem rgba(173, 172, 172, 0.15);
+  position: fixed;
+  width: 100%;
+  background: #ffffff;
+  z-index: 1000;
+}
+.static-container {
+  width: 100%;
+  padding-right: 80px;
+  padding-left: 80px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.static-header .static-navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.static-header .static-navbar .logo img{
+  max-width: 250px;
+}
+.static-header .static-navbar .header-menu {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  border-right: none;
+}
+.static-header .static-navbar .header-menu li a {
+  font-weight: 600;
+  transition: .3s ease-in-out;
+  font-family: 'Montserrat', sans-serif;
+  color: rgb(32, 32, 32) !important;
+  font-size: 16px !important;
+  font-family: 'montserrat' !important;
+}
+.static-header .static-navbar .header-menu li a:hover{
+  color: rgb(0, 0, 255)!important;
+}
+.static-header .static-navbar .header-menu li {
+  height: auto;
+  margin: 0px;
+}
+.btn-round {
+  padding: 15px 35px;
+  border-radius: 25px;
+  font-size: 16px !important;
+  transition: all 0.1s ease-in !important;
+  font-weight: bolder;
+  background-color: #0000ff;
+  color: white;
+  box-shadow: 5px 5px 5px 0px rgba(30, 0, 89, 0.2);
+  border: solid 2px #0000ff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: normal;
+  height: auto;
+}
+.btn-round:hover {
+  background-color: #ffffff;
+  color: #000;
+}
+
+
+#menu-toggle {
+  display: none;
+}
+
+.menu-button,
+.menu-button::before,
+.menu-button::after {
+  display: block;
+  background-color: #00f;
+  position: relative;
+  height: 3px;
+  width: 30px;
+  transition: transform .3s cubic-bezier(0.23, 1, 0.32, 1);
+  border-radius: 2px;
+}
+
+.menu-button::before {
+  content: '';
+  margin-top: -8px;
+}
+
+.menu-button::after {
+  content: '';
+  margin-top: 13px;
+}
+
+#menu-toggle:checked + .menu-button-container .menu-button::before {
+  margin-top:  0px;
+  transform: rotate(405deg);
+}
+
+#menu-toggle:checked + .menu-button-container .menu-button {
+  background: rgba(255, 255, 255, 0);
+}
+
+#menu-toggle:checked + .menu-button-container .menu-button::after {
+  margin-top: -2px;
+  transform: rotate(-405deg);
+}
+.menu-button-container {
+  display: none;
+}
+
+/*header css ends here*/
